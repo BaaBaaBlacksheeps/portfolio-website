@@ -7,7 +7,7 @@ const HeroSection = () => {
         <h1>pranav tuma</h1>
       </div>
       <div className={styles['heroImage']}>
-        <img src='./heroImage.png'/>
+        <img src='./hero-image.png'/>
       </div>
     </div>
   );
