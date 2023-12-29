@@ -1,0 +1,63 @@
+:root {
+  --background: #1B0606;
+  --borderColor: #5C0202;
+  --h2Color: #FF0000;
+  --textColor: #cac8c8;;
+}
+
+@font-face {
+  font-family: 'Orbitron';
+  src: url('./styles/fonts/Orbitron-Medium.ttf') format('truetype'); /* Adjust the path to your font file */
+}
+
+@font-face {
+  font-family: 'Varela';
+  src: url('./styles/fonts/Varela-Regular.ttf') format('truetype'); /* Adjust the path to your font file */
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('./styles/fonts/Roboto-Bold.ttf') format('truetype'); /* Adjust the path to your font file */
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--background);
+}
+
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+@media screen and (width < 500px) {
+  body {
+    padding: 0 ;
+  }
+}
+
+
+/* For Webkit browsers (Chrome, Safari) */
+/* Hide scrollbar */
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* For Firefox */
+/* Hide scrollbar */
+* {
+  scrollbar-width: none;
+}
+
+/* For Edge and IE */
+/* Hide scrollbar */
+* {
+  -ms-overflow-style: none;
+}

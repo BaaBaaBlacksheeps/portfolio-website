@@ -1,0 +1,80 @@
+.section {
+    margin-top: min(max(20vw, 5rem), 10rem);
+    color: var(--textColor);
+  }
+  
+.locationSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.pin {
+    height: 3.6rem;
+    margin-right: 4rem;
+}
+
+.address {
+    text-transform: uppercase;
+}
+
+.city {
+    font-family: 'Varela', sans-serif;
+    font-size: max(min(4vw, 1.5rem),.8rem);
+    letter-spacing: .25rem;
+    margin: .8rem 0;
+}
+
+.country {
+    font-family: 'Orbitron', sans-serif;
+    font-size: max(min(2vw, 1.2rem),.5rem);
+    letter-spacing: .4rem;
+    font-weight: 100;
+    margin: .4rem .2rem;
+}
+
+.socials {
+    margin:  min(max(8vw, 3rem), 8rem) 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.linkedin {
+    height: min(max(1vw, 1.5rem),2.5rem);
+    filter: brightness(80%) saturate(30%);
+}
+
+.endbar {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom, var(--background), var(--borderColor));
+}
+
+
+.footerName {
+    font-family: 'Varela', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+    font-size: max(min(1vw, 1.2rem),.6rem);
+    
+}
+
+
+
+@media screen  and (width < 500px){
+    .pin {
+        margin-right: 10vw;
+        height: min(20vw, 2.5rem);
+    }
+    .city,.country {
+        letter-spacing: .1rem;
+    }
+    .country {
+        margin: .4rem .1rem;
+    }
+}
+

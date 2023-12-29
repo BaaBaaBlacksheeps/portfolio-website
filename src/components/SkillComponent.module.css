@@ -1,0 +1,112 @@
+.cont {
+  border-radius: 2rem;
+  border: 1px solid var(--borderColor);
+  padding: 1rem;
+  height: 14rem;
+  width: 14rem;
+  display: grid;
+  box-sizing: border-box;
+  margin: auto;
+  grid-template-rows: 60% 40%;
+}
+
+.img {
+  /* filter: brightness(50%) contrast(75%) saturate(0%); */
+  margin: auto;
+  height: 3.6rem;
+  width: 3.6rem;
+}
+
+.img > img {
+  object-fit: cover;
+  width: 100%;
+}
+
+.detailsCont {
+  color: white;
+}
+
+.skillName {
+  font-family: "Varela", sans-serif;
+  letter-spacing: 0.08rem;
+  font-size:    min(.84rem , 4vw);
+  margin: 0;
+  padding: 0.5rem 0;
+  text-align: center;
+  color: #cac8c8;
+}
+
+.level {
+  position: relative;
+  width: 80%;
+  background-color: var(--borderColor);
+  height: 0.25rem;
+  border-radius: 0.25rem;
+  margin: auto;
+  margin-top: 0.4rem;
+}
+
+.greenBar {
+  position: absolute;
+  z-index: 1;
+  height: 100%;
+  top: 0;
+  left: 0;
+  border-radius: 0.25rem;
+  background-color: #236a02;
+}
+
+.skillbar-novice {
+  width: 25%;
+}
+
+.skillbar-beginner {
+  width: 50%;
+}
+
+.skillbar-intermediate {
+  width: 75%;
+}
+
+.skillbar-proficient {
+  width: 100%;
+}
+
+.levelInText {
+  position: absolute;
+  top: 0.6rem;
+  font-family: "Roboto";
+  text-transform: uppercase;
+  font-weight: 100;
+  letter-spacing: 0.06rem;
+  font-size:    min(.6rem , 3vw);
+  color: #c17777;
+  margin: 0;
+}
+
+@media screen and (width < 600px) {
+  .cont {
+    grid-template-columns: 40% 60%;
+    grid-template-rows: auto;
+    height: 5rem;
+    border: 0;
+    width: 40vw;
+    padding: .25rem;
+    margin: 1rem 0;
+  }
+
+  .skillName{
+    text-align: start;
+  }
+
+  .level {
+    width: 100%;
+    margin-top: 0;
+  }
+
+  .img {
+    width:  10vw;
+    height: 10vw;
+    filter: none;
+  }
+}
