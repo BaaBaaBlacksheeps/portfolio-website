@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/portfolio-website/static/css/main.9a0709e2.css",
-    "main.js": "/portfolio-website/static/js/main.7a2fcfda.js",
+    "main.js": "/portfolio-website/static/js/main.b2b22387.js",
     "static/media/Varela-Regular.ttf": "/portfolio-website/static/media/Varela-Regular.1258d94610bfa4200be7.ttf",
     "static/media/Roboto-Bold.ttf": "/portfolio-website/static/media/Roboto-Bold.f80816a5455d171f948d.ttf",
     "static/media/Orbitron-Medium.ttf": "/portfolio-website/static/media/Orbitron-Medium.1a5c8e9651ff9236dea1.ttf",
     "index.html": "/portfolio-website/index.html",
     "main.9a0709e2.css.map": "/portfolio-website/static/css/main.9a0709e2.css.map",
-    "main.7a2fcfda.js.map": "/portfolio-website/static/js/main.7a2fcfda.js.map"
+    "main.b2b22387.js.map": "/portfolio-website/static/js/main.b2b22387.js.map"
   },
   "entrypoints": [
     "static/css/main.9a0709e2.css",
-    "static/js/main.7a2fcfda.js"
+    "static/js/main.b2b22387.js"
   ]
 }
